@@ -24,7 +24,7 @@ Installation
 
     git clone https://github.com/thermokarst/snapextract
 
-2) Get the data from http://snap.uaf.edu
+2) Get the data from http://snap.uaf.edu.
 
 3) Run the tests:
 
@@ -32,12 +32,12 @@ Installation
 	OR
 	$ make test3
 
-4) If everything passes, you are ready to plug this into some larger project. For
-an example, check out [SNAPIndices](http://www.github.com/thermokarst/snapindices).
+4) If everything passes, you are probably ready to plug this into your project. For
+an example check out [SNAPIndices](http://www.github.com/thermokarst/snapindices).
 
 
 Contact
 -------
 
-Do you have an idea for a feature request? Find a Bug?
+Do you have an idea for a feature? Find a bug?
 Reach me at [matthewrdillon@gmail.com](mailto:matthewrdillon@gmail.com)
