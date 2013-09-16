@@ -42,7 +42,8 @@ class SNAPDataSet:
         if 'historical' in components:
             # HISTORICAL DATA
             self.model = 'CRU'
-            self.scenario = components[components.index('CRU')+1]
+            self.scenario = components[components.index('CRU') + 1]
+            self.resolution = components[components.index('CRU') - 1]
         else:
             # PROJECTION DATA
             for comp in components:
@@ -52,6 +53,7 @@ class SNAPDataSet:
                     self.scenario = comp.replace('sres', '').upper()
                     endmarker = components.index(comp)
             self.model = "_".join(components[startmarker:endmarker])
+            self.resolution = components[startmarker - 1]
 
 
     def load_dataset(self):
