@@ -1,12 +1,12 @@
-SNAPExtract
-===========
+AKExtract
+=========
 
 Extract air temperatures from SNAP datasets
 
 What is it?
 -----------
 
-SNAPExtract is a simple tool to assist with extracting point-data from SNAP datasets
+AKExtract is a simple tool to assist with extracting point-data from SNAP datasets
 
 Prerequisites
 -------------
@@ -22,7 +22,7 @@ Installation
 
 1) Clone the repo:
 
-    git clone https://github.com/thermokarst/snapextract
+    git clone https://github.com/thermokarst/akextract
 
 2) Get the data from http://snap.uaf.edu.
 
@@ -33,11 +33,11 @@ Installation
 	$ make test3
 
 4) If everything passes, you are probably ready to plug this into your project. For
-an example check out [SNAPIndices](http://www.github.com/thermokarst/snapindices).
+an example check out [AKIndices](http://www.github.com/thermokarst/akindices).
 
 
 Contact
 -------
 
 Do you have an idea for a feature? Find a bug?
-Reach me at [matthewrdillon@gmail.com](mailto:matthewrdillon@gmail.com)
+Reach me at [mrdillon@gmail.com](mailto:mrdillon@gmail.com)

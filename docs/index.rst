@@ -1,31 +1,31 @@
-************************************
-SNAPExtract Documentation and Source
-************************************
+**********************************
+AKExtract Documentation and Source
+**********************************
 
 .. toctree::
    :maxdepth: 4
 
 .. default-domain:: python
-.. automodule:: snapextract
+.. automodule:: akextract
 
-SNAPExtract is a Python project, currently supported under version
+AKExtract is a Python project, currently supported under version
 2.7.x and 3.3.x.
 
 Requirements: gdal, numpy
 Option: nose (for testing), sphinx (for docs)
 
-Module: snapextract.backend
+Module: akextract.backend
 ---------------------------
 
 Automatic API Documentation.
 
-.. automodule:: snapextract.backend
+.. automodule:: akextract.backend
    :members: SNAPDataSet, GeoRefData
 
 Source: backend.py
 ^^^^^^^^^^^^^^^^^^
 
-.. literalinclude:: ../snapextract/_backend.py
+.. literalinclude:: ../akextract/_backend.py
 
 Tests
 -----

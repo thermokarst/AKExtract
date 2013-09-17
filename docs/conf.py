@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# SNAPIndices documentation build configuration file, created by
+# AKExtract documentation build configuration file, created by
 # sphinx-quickstart on Thu Mar 28 16:33:50 2013.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'SNAPIndices'
+project = u'AKExtract'
 copyright = u'2013, Matthew Ryan Dillon'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -164,7 +164,7 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SNAPIndicesdoc'
+htmlhelp_basename = 'AKExtractdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'SNAPIndices.tex', u'SNAPIndices Documentation and Source',
+  ('index', 'AKExtract.tex', u'AKExtract Documentation and Source',
    u'Matthew Ryan Dillon', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'snapindices', u'SNAPIndices Documentation',
+    ('index', 'akextract', u'AKExtract Documentation',
      [u'Matthew Ryan Dillon'], 1)
 ]
 
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'SNAPIndices', u'SNAPIndices Documentation',
-   u'Matthew Ryan Dillon', 'SNAPIndices', 'One line description of project.',
+  ('index', 'AKExtract', u'AKExtract Documentation',
+   u'Matthew Ryan Dillon', 'AKExtract', 'One line description of project.',
    'Miscellaneous'),
 ]
 
