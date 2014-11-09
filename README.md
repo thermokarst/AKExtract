@@ -40,4 +40,4 @@ Contact
 -------
 
 Do you have an idea for a feature? Find a bug?
-Reach me at [mrdillon@gmail.com](mailto:mrdillon@gmail.com)
+Reach me at [matthewrdillon@gmail.com](mailto:matthewrdillon@gmail.com)
